@@ -1,5 +1,28 @@
 body {
+
     width : 1280px;
     margin-left : auto;
     margin-right : auto;
+    background-image: url('../img/back.jpg');
 }
+#page-header {
+    background-image: url('../img/header.jpg');
+}
+#content {
+    background-color: whitesmoke;
+    background-position: center bottom;
+
+}
+
+h3 {
+    color: blue;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 1280px;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+  }
